@@ -1,0 +1,25 @@
+{
+  "name": "light-tpl",
+  "version": "1.0.0",
+  "description": "a lightweight JavaScript template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fh332393900/light-tpl.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "template",
+    "engine"
+  ],
+  "author": "fenghang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fh332393900/light-tpl/issues"
+  },
+  "homepage": "https://github.com/fh332393900/light-tpl#readme",
+  "devDependencies": {}
+}
