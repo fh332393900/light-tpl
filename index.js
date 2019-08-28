@@ -1,1 +1,1 @@
-require('./src/light-tpl.js')
+module.exports = require('./src/light-tpl.js')
