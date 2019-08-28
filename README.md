@@ -9,3 +9,35 @@ You can use npm
 
     npm i light-tpl
     
+Output the template as a function return value
+```
+    let tpl = require('light-tpl')
+    export default function myTest() {
+        let data = [
+            {name:"fenghang",phone:"17713605274",age:21},
+            {name:"222",phone:"110",age:50}]
+        let templete = `
+            <ul>
+                <% for(var i=0; i < data.length; i++){
+                    var item = data[i];
+                    if(item.age < 30){%>
+                        <li>我的名字是<%=item.name%>，我的年龄是<%=item.age%>,我的手机号：<%=item.phone%></li>
+                    <%}else{%>
+                        <li>my name is <%=item.name%>,my age is a sercet.</li>
+                    <%}%>
+                <% } %>
+            </ul>`
+        return tpl(templete,data)
+    }
+```
+result:
+```
+
+        <ul>  
+            <li>我的名字是fenghang，我的年龄是21,我的手机号：17713605274</li>
+            <li>my name is 222,my age is a sercet.</li>
+        </ul>
+```
+Rendered HTML:
+* 我的名字是fenghang，我的年龄是21,我的手机号：17713605274
+* my name is 222,my age is a sercet.
