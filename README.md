@@ -10,7 +10,7 @@ You can use npm
     npm i light-tpl
     
 Output the template as a function return value
-```
+```javascript
     let tpl = require('light-tpl')
     export default function myTest() {
         let data = [
@@ -31,7 +31,7 @@ Output the template as a function return value
     }
 ```
 result:
-```
+```html
 
         <ul>  
             <li>我的名字是fenghang，我的年龄是21,我的手机号：17713605274</li>
