@@ -1,6 +1,6 @@
 {
   "name": "light-tpl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a lightweight JavaScript template engine",
   "main": "index.js",
   "scripts": {
