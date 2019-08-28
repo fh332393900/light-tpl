@@ -16,7 +16,7 @@ Output the template as a function return value
         let data = [
             {name:"fenghang",phone:"17713605274",age:21},
             {name:"222",phone:"110",age:50}]
-        let templete = `
+        let template = `
             <ul>
                 <% for(var i=0; i < data.length; i++){
                     var item = data[i];
@@ -27,7 +27,7 @@ Output the template as a function return value
                     <%}%>
                 <% } %>
             </ul>`
-        return tpl(templete,data)
+        return tpl(template,data)
     }
 ```
 result:
