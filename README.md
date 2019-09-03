@@ -15,7 +15,7 @@ Output the template as a function return value
     let tpl = require('light-tpl')
     export default function myTest() {
         let data = [
-            {name:"fenghang",phone:"17713605274",age:21},
+            {name:"fenghang",phone:"15900001111",age:21},
             {name:"222",phone:"110",age:50}]
         let template = `
             <ul>
@@ -35,10 +35,10 @@ result:
 ```html
 
         <ul>  
-            <li>我的名字是fenghang，我的年龄是21,我的手机号：17713605274</li>
+            <li>我的名字是fenghang，我的年龄是21,我的手机号：15900001111</li>
             <li>my name is 222,my age is a sercet.</li>
         </ul>
 ```
 Rendered HTML:
-* 我的名字是fenghang，我的年龄是21,我的手机号：17713605274
+* 我的名字是fenghang，我的年龄是21,我的手机号：15900001111
 * my name is 222,my age is a sercet.
