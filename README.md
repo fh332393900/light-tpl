@@ -6,7 +6,7 @@
 
 
 ## How to use
-You can use npm
+You can install using npm
 
     npm i light-tpl
     
