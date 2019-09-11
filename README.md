@@ -7,9 +7,9 @@
 
 ## How to use
 You can install using npm
-
-    npm i light-tpl
-    
+```bash
+npm i light-tpl
+```    
 Output the template as a function return value
 ```javascript
     let tpl = require('light-tpl')
